@@ -5,4 +5,13 @@ img{
     height: 200px;
     margin-left:150px;
     margin-right: 100px;
+    margin-bottom: 100px;
+}
+li{
+
+}
+#aboutus{
+    border: black solid 10px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
