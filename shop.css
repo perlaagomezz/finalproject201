@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(216, 202, 202);
+}
+h1{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+img{
+    height: 200px;
+    margin-left:150px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+/* div{
+
+    border: 10px outset #ff0000;
+    margin-right:1400px;
+    margin-left: 100px;
+    }
+#lightgreen{
+    border: 8px solid slightgreens;
+} */
