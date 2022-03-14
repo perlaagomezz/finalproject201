@@ -1,24 +1,43 @@
 body{
-    background-color: rgb(78, 64, 87);
+    background-color: rgb(111, 95, 121);
 }
 img{
     height: 200px;
-    margin-left:150px;
+    margin-left:680px;
     margin-right: 100px;
     margin-bottom: 100px;
 }
-li{
 
+#one{
+    height: 100px;
+    margin-left:730px;
+    margin-right: 100px;
+    margin-bottom: 100px;
 }
+
+li{
+    display: inline;
+    margin-left: 190px;
+    margin-right: 200px;
+}
+
 #aboutus{
     border: black solid 10px;
     margin-left: 150px;
     margin-right: 150px;
 }
-
-#one{
+h1{
+    text-align: center;
     color: white;
-    }
+}
+
+p{
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    
+}
 
 #two{
     color: white;
