@@ -9,17 +9,16 @@ h1{
     margin-right: 450px;
 }
 img{
-    height: 200px;
+    height: 100px;
+    width: 200px;
     margin-left:150px;
     margin-right: 100px;
     margin-bottom: 100px;
 }
-/* div{
-
-    border: 10px outset #ff0000;
-    margin-right:1400px;
-    margin-left: 100px;
-    }
-#lightgreen{
-    border: 8px solid slightgreens;
-} */
+#shopflask{
+    margin-top: 120px;
+    margin-left: 230px;
+    margin-right: 110px;
+    margin-bottom: 120px;
+    
+}
