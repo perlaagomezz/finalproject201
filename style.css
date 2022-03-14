@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(78, 64, 87);
 }
 img{
     height: 200px;
@@ -10,3 +10,29 @@ img{
 li{
 
 
+}
+#aboutus{
+    border: black solid 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#one{
+    color: white;
+    }
+
+#two{
+    color: white;
+}
+
+#three{
+    color: white;
+}
+
+#four{ 
+    color: white;
+}
+
+#five{
+    color: white;
+}
