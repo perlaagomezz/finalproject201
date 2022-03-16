@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="fonts" href="https://fonts.google.com/">
     <title>Final Project</title>
 </head>
 <body>
@@ -14,14 +15,14 @@
         <li><a href="aboutus.html">About Us</a></li>
     </ul>
 
-    <section id="one"> 
+    <section> 
     <h1> Hydro flasks in CCHS!</h1>
-    <img src="https://iconape.com/wp-content/png_logo_vector/hydro-flask-logo.png" alt="hydro-flask-logo">
+    <img id="one" src="https://iconape.com/wp-content/png_logo_vector/hydro-flask-logo.png" alt="hydro-flask-logo">
 
     <p>Honestly we expected more people would have hydro flasks because everyone has one but no one brings them to school so thats disappointing</p>
 </section>
 
-    <section id="two">
+    <section>
     <p>Mrs. Mumm loves her colorful Hydro Flask! :)</p>
     <img src="/imgs/hydro9.PNG" alt="mrs.mumm">
 </section>
@@ -41,6 +42,27 @@
     <img src="/imgs/hydro5.PNG" alt="Mr.CD">
 </section>
 
+
+    <form onSubmit={handleSubmit}>
+      <label>Enter your name:
+      <input 
+        type="text" 
+        name="username" 
+        value={inputs.username || ""} 
+        onChange={handleChange}
+      />
+      </label>
+      <label>Enter your age:
+        <input 
+          type="number" 
+          name="age" 
+          value={inputs.age || ""} 
+          onChange={handleChange}
+        />
+        </label>
+        <input type="submit" />
+    </form>
+  
 
 
 </body>
