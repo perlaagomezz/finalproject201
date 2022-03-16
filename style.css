@@ -6,14 +6,15 @@ img{
     margin-left:680px;
     margin-right: 100px;
     margin-bottom: 100px;
+    
 }
 
 #one{
-    height: 100px;
+    height: 150px;
     margin-left:730px;
     margin-right: 100px;
     margin-bottom: 100px;
-}
+    }
 
 li{
     display: inline;
@@ -27,8 +28,10 @@ li{
     margin-right: 150px;
 }
 h1{
+    font-size: 40px;
     text-align: center;
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p{
@@ -54,3 +57,4 @@ p{
 #five{
     color: white;
 }
+
