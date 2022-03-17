@@ -1,14 +1,15 @@
-img{
+#part1 img{
+    
     height: 150px;
     margin-left: 200px;
-    border: white solid 10px;
+    border: rgb(255, 255, 255) solid 10px;
     margin-top: 100px;
 
 }
-body{
-    background-color: rgb(9, 49, 15);
+ body{
+    background-color: rgb(19, 76, 28);
 }
-h1{
+#part1 h1{
     color: white;
     margin-left: 650px;
     margin-right: 200px;
@@ -16,13 +17,13 @@ h1{
 
     
 }
-li{
+#part1 li{
     color: white;
     display: inline;
     margin-left: 190px;
     margin-right: 200px;
 }
-p{
+#part1 p{
 
     border: white solid 10px;
     margin-left: 400px;
@@ -33,3 +34,29 @@ p{
     text-align: center;
     margin-top: 100px;
 }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(32, 214, 105, 0.864);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(154, 95, 95, 0.2);
+
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+    margin-right: 1px;
+    margin-left: -1px;
+  }
+  
+  .container {
+    padding: 2px 16px;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
