@@ -1,10 +1,4 @@
 
-body{
-    background-color: rgb(216, 202, 202);
-    
-}
-
-
 h1{
     /* border: double 5px rgb(169, 157, 157); */
     /* color: rgb(243, 14, 14); */
@@ -12,6 +6,7 @@ h1{
     text-align: center;
     margin-left: 450px;
     margin-right: 450px;
+    color: white;
 }
 li{
 display: inline;
@@ -37,6 +32,6 @@ img{
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white
+    background-color: rgb(149, 151, 159)
 }
 
